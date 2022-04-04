@@ -1,0 +1,17 @@
+{
+  "name": "design-with-tailwind-css-masterclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "6.1.2",
+    "tailwindcss": "1.0.4",
+    "autoprefixer": "9.6.1"
+  }
+}
